@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:id="@+id/llFull"
+
+    >
+    <TextView
+        android:layout_gravity="center"
+        android:padding="@dimen/dp16"
+        android:gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Quan ly sach"
+        android:textSize="@dimen/dp20"
+        android:textColor="@color/colorPrimary"
+
+        />
+    <LinearLayout
+        android:background="@color/colorWhileDark"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:padding="@dimen/dp16"
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Nhap ten tai khoan"
+            android:background="#00ffffff"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorWhile"
+            ></LinearLayout>
+
+        <EditText
+            android:padding="@dimen/dp16"
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Nhap mau khau"
+            android:background="#00ffffff"
+            android:inputType="textPassword"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="@dimen/dp30"
+        android:layout_marginRight="@dimen/dp30"
+        android:layout_marginLeft="@dimen/dp30"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Dang Ki"
+        android:textColor="@color/colorWhile"
+        android:background="@color/colorPrimary"
+        />
+
+
+</LinearLayout>

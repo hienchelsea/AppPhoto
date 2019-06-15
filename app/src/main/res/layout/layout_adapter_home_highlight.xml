@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:layout_marginLeft="@dimen/dp20"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ten sach"
+            android:gravity="center|left"
+            android:textSize="@dimen/dp18"
+            />
+        <TextView
+            android:id="@+id/tvKind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Loai"
+            android:gravity="center|left"
+            android:textSize="@dimen/dp16"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imvMenu"
+        android:padding="16dp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/menu"
+        />
+
+</LinearLayout>

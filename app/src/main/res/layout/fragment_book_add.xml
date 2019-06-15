@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/llToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        >
+        <ImageView
+            android:padding="16dp"
+            android:id="@+id/imgMenu"
+            android:layout_width="@dimen/img_width_width"
+            android:layout_height="@dimen/img_width_width"
+            />
+        <TextView
+            android:id="@+id/tvSearch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:text="Add"
+            android:gravity="center"
+            android:textColor="@color/colorWhile"
+            android:textSize="@dimen/dp18"
+
+
+            />
+        <ImageView
+
+            android:padding="16dp"
+            android:id="@+id/imgSearch"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <TextView
+            android:gravity="center|left"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Ten Sach"
+            android:textSize="@dimen/dp16"
+            />
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <TextView
+            android:gravity="center|left"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="The Loai"
+            android:textSize="@dimen/dp16"
+            />
+        <EditText
+            android:id="@+id/edtKind"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:text="Them"
+        android:textColor="@color/colorWhile"
+        />
+
+</LinearLayout>
